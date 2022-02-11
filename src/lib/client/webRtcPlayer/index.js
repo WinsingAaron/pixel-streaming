@@ -125,7 +125,7 @@ const Message = require('../middleware/message').default;
         //**********************
 
         //Create Video element and expose that as a parameter
-        createWebRtcVideo = function() {
+        var createWebRtcVideo = function() {
             var video = document.createElement('video');
 
             video.id = "streamingVideo";
